@@ -13,7 +13,6 @@ public class Factorial {
             System.out.println("Factorial is not defined for negative numbers.");
         } else {
             long factorial = 1;
-
             for (int i = 1; i <= number; i++) {
                 factorial *= i;
             }
